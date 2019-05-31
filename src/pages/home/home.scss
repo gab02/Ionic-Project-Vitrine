@@ -1,3 +1,38 @@
-page-home {
 
+.card{
+  background-image: linear-gradient(to bottom right, #C0C0C0 , #DCDCDC);
+  height: 100%;
+  color: #2F4F4F;
 }
+.card1{
+  background-image: linear-gradient(to bottom right, #C0C0C0 , #DCDCDC);
+  height: 250px;
+  color: #2F4F4F;
+}
+.content{
+  
+  background-image: url('../../assets/imgs/cover.jpg') ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+  color: white 	;
+  font-family: 'Roboto', sans-serif;  
+}
+.button{
+  margin-left: 100px;
+}
+
+.ion-text-center{
+  text-align: center;
+}
+.nav{
+
+  height: 50px;
+} 
+.title{height:50px; color: white;   font-family: 'Roboto', sans-serif; margin-top: -15px; }
+
+ion-label{color: white;  font-family: 'Roboto', sans-serif;  }
+

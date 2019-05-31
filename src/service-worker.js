@@ -29,3 +29,13 @@ self.toolbox.router.any('/*', self.toolbox.fastest);
 // for any other requests go to the network, cache,
 // and then only use that cached resource if your user goes offline
 self.toolbox.router.default = self.toolbox.networkFirst;
+
+import Vue from 'vue';
+import App from './App.vue';
+
+import { Ionic } from '@ionic/vue';
+
+Vue.use(Ionic);
+new Vue({
+  render: h => h(App)
+}).$mount('#app');
